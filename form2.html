@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h6 id="email">firstname:</h6>
+    <h6 id="contact">lastname:  </h6>
+
+   
+    <script>
+        
+   window.onload = function () {
+        // document.getElementById('firstname').innerHTML = localStorage.getItem('firstname');
+        // document.getElementById('lastname').innerHTML = localStorage.getItem('lastname');
+        // document.getElementById('inputSurfaceDuTerrain').innerText = "inputSurfaceDuTerrain, " + localStorage.getItem('inputSurfaceDuTerrain');
+        // document.getElementById('inputSurfaceDuTerrain').innerText = "inputSurfaceDuTerrain, " + localStorage.getItem('inputSurfaceDuTerrain');
+        document.getElementById('email').innerHTML = localStorage.getItem('email');
+  document.getElementById('contact').innerHTML = localStorage.getItem('contact');
+  document.getElementById('fname').innerHTML = localStorage.getItem('fname');
+  document.getElementById('lname').innerHTML = localStorage.getItem('lname');
+
+  document.getElementById('d_address').innerHTML = localStorage.getItem('d_address');
+  document.getElementById('d_city').innerHTML = localStorage.getItem('d_city');
+  document.getElementById('d_province').innerHTML = localStorage.getItem('d_province');
+  document.getElementById('d_country').innerHTML = localStorage.getItem('d_country');
+  document.getElementById('d_postal').innerHTML = localStorage.getItem('d_postal');
+  document.getElementById('b_address').innerHTML = localStorage.getItem('b_address');
+  document.getElementById('b_city').innerHTML = localStorage.getItem('b_city');
+  document.getElementById('b_province').innerHTML = localStorage.getItem('b_province');
+  document.getElementById('b_country').innerHTML = localStorage.getItem('b_country');
+  document.getElementById('b_postal').innerHTML = localStorage.getItem('b_postal');
+
+ }; 
+  
+    
+    </script>
+</body>
+</html>

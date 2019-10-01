@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+     <!-- CSS dependencies -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+        <div class="small-container">
+                <h1>New Tab App</h1>
+                                          
+                <form role="form" id="form" data-toggle="validator" onsubmit="return validateMyForm();">
+                        <div class="form-group col-md-6">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="contact" name="contact" pattern="^[0-9]{12}" title="12 digits" maxlength="12" required/>
+                            <input type="text" class="form-control" id="email" title="visa card number" name="email" required/>
+
+                            <input type="submit" id="submit"/>
+                        </div>
+                        </div>
+                    </form>
+                    <h6 id="email">firstname:</h6>
+                    <h6 id="contact">lastname:  </h6>
+                </div>
+
+                <script>
+              
+
+              function validateMyForm()
+{
+    let email = document.getElementById('email');
+    let contact = document.getElementById('contact');
+  if( (email !=='undefined' && email !== null) && (contact !=='undefined' && contact !== null) )
+  { 
+
+    window.location.href = "form2.html";
+  localStorage.setItem('email', email.value);
+localStorage.setItem('contact', contact.value);
+  }
+
+  else{
+    alert("validation failed false");
+    return false;
+
+  }
+
+}            
+
+
+                </script>
+<!-- JS dependencies -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>

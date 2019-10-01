@@ -1,0 +1,82 @@
+.tabs {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-bottom-color:2px solid #000;
+  }
+  #tab-button {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #tab-button li {
+    display: table-cell;
+    border-bottom:1px solid gray;
+    width: 20%;
+  }
+  #tab-button li a {
+    display: block;
+    padding: .5em;
+    background: #ffffff;
+    /* border-bottom: 1px solid gray; */
+    text-align: center;
+    color:gray;
+    text-decoration: none;
+   
+  }
+  #tab-button li:not(:first-child) a {
+    border-left: none;
+  }
+  #tab-button li a:hover,
+  #tab-button .is-active a {
+    color: #000;
+    border-bottom:3px solid #8828C0;
+    background: #fff;
+  }
+  .tab-contents {
+    padding: .5em 2em 1em;
+    /* border: 1px solid #ddd; */
+  }
+
+
+/* tabs in checkout */
+#myTab li a {
+  display: block;
+  padding: .5em;
+  background: #ffffff;
+  border-bottom: 1px solid gray;
+  text-align: center;
+  color:gray;
+  text-decoration: none;
+}
+  #myTab li a:hover,
+  #myTab .is-active a {
+    color: #000;
+    border-bottom:3px solid #8828C0;
+    background: #fff;
+  }
+  
+  .tab-button-outer {
+    display: none;
+  }
+  .tab-contents {
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .tab-button-outer {
+      position: relative;
+      z-index: 2;
+      display: block;
+    }
+    .tab-select-outer {
+      display: none;
+    }
+    .tab-contents {
+      position: relative;
+      top: -1px;
+      margin-top: 0;
+    }
+  }

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
+        <!-- Custom Stylesheets -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tabs.css">
+        <link rel="stylesheet" href="css/hover-style.css">
+
+        <!-- Plugins -->
+      
+        <link href="lib/hover/hover-min.css" rel="stylesheet" media="all">
+    
+        <!-- Custom fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"></script>
+
+        <title>Home</title>
+</head>
+<body>
+
+<!-- main nav opening-->
+<nav class="fixed-top navbar-expand-md">
+
+<!-- first nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" width="auto" height="75" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+            <div class="form-group">
+                <label for="search">Search</label>
+                <select class="form-control category-select" style="margin-left: 20px;">
+                  <option>All</option>
+                  <option>By Name</option>
+                  <option>By Price</option>
+                  <option>By Categories</option>
+                </select>
+              </div>
+        </form>
+        <div class="input-group col-md-4">
+            <input class="form-control w-50" type="search" placeholder="Enter any keyword" id="example-search-input">
+            <span class="input-group-append" >
+            <button class="btn btn-outline-secondary border-right-0"  type="button">
+            <i class="fa fa-search"></i>
+            </button>
+            </span>
+        </div>
+
+        <div class="dropdown" style="margin-left: 180px"> 
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="badge badge-pill badge-primary">2</span> <b>My Cart</b>
+                    </a>
+                    <div class="dropdown-menu">
+                       <!-- items -->
+                            <div class="card-body">
+                                <div class="row"><!-- row opening -->
+                                    <div class="col-md-4">
+                                        <img class="card-img-top img-thumbnail" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:85px; height:95px">                                 
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text-heading">Huawei Y9 Prime 2019</p>
+                                        <h6 class="text-dark font-weight-bold">P 12,990.00</h6> 
+                                    </div>
+                                </div> <!-- row closing -->
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <div class="card-body">
+                                <div class="row"><!-- row opening -->
+                                    <div class="col-md-4">
+                                        <img class="card-img-top img-thumbnail" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:85px; height:95px">                                 
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p class="text-heading">Huawei Y9 Prime 2019</p>
+                                        <h6 class="text-dark font-weight-bold">P 12,990.00</h6> 
+                                    </div>
+                                </div> <!-- row closing -->
+                            </div>
+                            
+                            <!-- buttons -->
+                            <div class="dropdown-divider"></div>
+                            <div class="row ml-2 mr-2 pb-2 pt-2">
+                              <div class="col-md-6">
+                                  <a class="btn w-100 p-1 text-uppercase font-weight-bold btn-outline-main text-heading" id="viewCart" href="shoppingCart.html">view cart</a>
+                              </div>
+                              <div class="col-md-6">
+                                <!-- <button class="btn w-100 p-1 text-uppercase font-weight-bold btn-outline-main text-heading">checkout</button> -->
+                                <a class="btn w-100 main-color p-1 text-white text-uppercase font-weight-bold text-heading" id="checkout" href="checkout.html">checkout</a>
+                              </div>
+                            </div>
+
+                      </div>
+                </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </nav><!-- first nav -->
+
+
+<!-- second nav -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom">
+          <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+    
+            <li class="nav-item dropdown" style="margin-left:-20px">
+            <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Shop by what you need
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+    
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+    
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Today's Deals
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+    
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            My Shopping List
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+            </ul>
+
+              <div class="ml-auto">
+                <a class="text-dark mr-2" href="login.html"><i class="far fa-user mr-2"></i>Login</a> |
+                <a class="text-dark ml-2" href="signup.html"><i class="fa fa-cart"></i>Sign up</a>
+              </div>
+            </div>
+
+          </div>
+        </nav>   <!-- second nav closing -->
+         
+    </nav> <!-- main nav closing-->
+ 
+       
+     
+      
+         <section class="main-section" style="background-image: url('img/bg-cover.jpg');margin-top:7.3rem;">
+           <div class="container">
+            <h2 class="text-white text-heading font-weight-bold mt-5">We deliver it fresh right <br>at your door.</h2>
+            <h6 class="text-white">Get a FREE same-day delivery for every Php 3,000 worth of products.</h6>
+            
+            <button class="btn w-20 main-light-color p-1 text-white text-uppercase font-weight-bold mt-2 hvr-grow">order now</button>
+           </div>
+         </section>
+
+         <br><br>
+      <!-- tabs -->    
+         <div class="container">
+
+            <div class="tabs">
+                <div class="tab-button-outer">
+                  <ul id="tab-button" style="font-size: 20px">
+                    <li><a href="#tab01">Today's Deals</a></li>
+                    <li><a href="#tab02">Holiday Guide</a></li>
+                    <li><a href="#tab03">Departments</a></li>
+                    <li><a href="#tab04">Imported Goods</a></li>
+                  </ul>
+                </div>
+                
+               
+              <!-- tab 1 opening-->
+                <div id="tab01" class="tab-contents">
+                  <br>
+
+                  
+                  <div class="row">
+                    <div class="col-md-5">
+                        <h1 class="font-weight-normal">Popular categories</h1>
+                    </div>
+
+                    <div class="col-md-7">
+                      <a class="btn w-25 p-1 text-uppercase font-weight-bold btn-outline-main float-right hvr-fade" href="products.html">all categories</a>
+                    </div>
+                  </div>
+
+
+                  <p class="text-secondary">From phones to fruits, these are the trending categories for today.</p>
+                  <br>
+
+<!-- card -->
+<div class="card-deck">
+
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title font-weight-boldest text-heading">Holiday gifts</h3>
+        <p class="card-text text-secondary">Buy your loved ones what's on their wishlists.</p>
+        <img src="img/products/gift-box.png" alt="" style="width:200px;height:150px;margin-right:-130px">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title font-weight-boldest text-heading">Groceries</h3>
+        <p class="card-text text-secondary">Stack up your fridge with your favorites.</p>
+        <img src="img/products/groceries.jpg" alt="" style="width:200px;height:150px;margin-right:-130px">
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title font-weight-boldest text-heading">Electronics</h3>
+        <p class="card-text text-secondary">The latest gadgets and electronics.</p>
+        <img src="img/products/nintendo-switch.png" alt="" style="width:200px;height:150px;margin-right:-130px">
+      </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+          <h3 class="card-title font-weight-boldest text-heading">Household essentials</h3>
+          <p class="card-text text-secondary">From soaps to brooms.</p>
+          <img src="img/products/household-essentials.jpg" alt="" style="width:200px;height:150px;margin-right:-130px">
+        </div>
+    </div>
+
+  </div>
+          <br><br>
+              </div> <!-- tab 1 closing -->
+         </div> 
+             </div><!-- div container closing  -->
+
+             <div class="jumbotron" style="background-color: #e9ecef;">
+                <div class="container p-4">
+                  <h1>Deals & Promos</h1>
+                  <div class="row">
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-white main-color">
+                            <img class="card-img" src="img/deals-promos(1).png" alt="Card image"  style="height:250px">        
+                          </div>
+                    </div>
+                    <div class="col-md-6 pb-5">
+                        <div class="card bg-dark text-white main-color">
+                            <img class="card-img" src="img/deals-promos(2).png" alt="Card image"  style="height:250px">
+                          </div>
+                    </div>
+                  </div>
+                 
+         
+                </div>    
+                </div>
+
+
+                <!-- card -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h1 class="font-weight-normal text-heading">Trending right now</h1>
+                        </div>
+          
+                        <div class="col-md-7">
+                          <a class="btn w-25 p-1 text-uppercase text-heading btn-outline-main float-right hvr-fade" href="products.html">all products</a>
+                        </div>
+                      </div>
+          
+          
+                      <p class="text-secondary">Here are the products people are buying right now.</p>
+                      <br>
+
+                      
+                  <div class="card-deck">
+    <div class="card" style="width: 25px;">
+     
+        <span class="badge red-accent text-white m-2 rounded text-heading text-uppercase animated infinite flash" style="width:20% !important;">deal</span>
+        <br>
+        <img class="card-img-top" src="img/products/nintendo-switch.png"  alt="Card image cap" style="width:250px; height:150px">
+        <div class="card-body">
+            <h6>Nintendo Switch</h6>
+            <p class="text-secondary" style="top:-120px"><i class="far fa-1x fa-heart font-color"></i> 142 people liked this</p>
+            <br> <h6 class="font-color"><b>21% off</b></h6>
+            <h4 class="card-text font-weight-boldest text-heading">P 2590.00</h4>
+          </div>
+        </div>
+    
+      <div class="card" style="width: 25px;">
+          <span class="badge white-accent text-white m-2 rounded " style="width:20% !important;">deal</span>
+          <br>
+          <img class="card-img-top" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:250px; height:150px">
+         
+          <div class="card-body">
+              <h6>Huawei Y9 Prime 2019</h6>
+              <p class="text-secondary" style="top:-120px"><i class="far fa-1x fa-heart font-color"></i> 23 people liked this</p>
+              <br><br> 
+              <h4 class="card-text font-weight-boldest text-heading">P 12999.00</h4>
+            </div>
+          </div>
+    
+        <div class="card" style="width: 25px;">
+            <span class="badge red-accent text-white m-2 rounded text-heading text-uppercase animated infinite flash" style="width:20% !important;">deal</span>
+            <br>
+            <img class="card-img-top ml-5" src="img/products/razer-blackwidow.jpg"  alt="Card image cap" style="width:150px; height:150px">
+           
+            <div class="card-body">
+                <h6>Razer BlackWidow Keyboard</h6>
+              <p class="text-secondary" style="top:-120px"><i class="far fa-1x fa-heart font-color hvr-icon-push"></i> 9 people liked this</p>
+                <br> <h6 class="font-color"><b>10% off</b></h6>
+                <h4 class="card-text font-weight-boldest text-heading">P 2590.00</h4>
+              </div>
+            </div>
+    
+          <div class="card" style="width: 25px;">
+              <span class="badge white-accent text-white m-2 rounded infinite flash" style="width:20% !important;">deal</span>
+              <br>
+              <img class="card-img-top ml-5" src="img/products/johnny-walker-black-label.png"  alt="Card image cap" style="width:150px; height:150px">
+              
+            <div class="card-body">
+                <h6>Johnny Walker Black Label</h6>
+                <p class="text-secondary" style="top:-120px"><i class="far fa-1x fa-heart font-color"></i> 1M+ people liked this</p>
+                <br><br>
+                <h4 class="card-text font-weight-boldest text-heading">P 2590.00</h4>
+              </div>
+            </div>
+    
+    
+    </div>
+                </div>
+
+                <br><br>
+                <!-- jumbotron -->
+
+<div class="jumbotron" style="background-color: #8828C0;">
+    <div class="container">
+      
+        <div class="col-md-2" style="top:50px;left:-65px;">
+            <img src="img/star.png" alt="" style="width:50px;height:50px;top:-150px">
+        </div>
+    
+        
+      <div class="col-md-4">
+          <p class="font-weight-bold text-white">
+              Get recommendations, deals, tips, updates, <br>promotions and more.
+            </p>
+      </div>
+    
+    
+    
+    
+      <div class="col-md-6" style="top:-55px;margin-left:619px;">
+          <div class="input-group ">
+              <span class="input-group-append" >
+                  <button class="btn btn-outline-secondary rounded-left" style="background-color: #F0F2F4;border: transparent">
+                      <i class="fa fa-envelope" ></i>
+                  </button>
+                </span>
+              <input class="form-control-normal border-0" type="search" placeholder="Your email address" id="example-search-input">
+    
+              <button class="btn text-white second-color text-uppercase rounded-right" style="font-size:12px;font-weight: bold;" type="button">
+                sign up
+              </button>
+        </div>
+        </div>
+
+        
+      
+    </div>
+    </div>
+
+<!-- footer -->
+<footer class="page-footer">
+    <div class="container">
+    <div class="d-flex flex-row">
+    <div>
+    <img src="img/logo-second.png" alt="" class="img-fluid logo" style="width:auto;height:35px">
+    </div>
+    <div class="ml-auto">
+    <ul class="list-inline" >
+    <li class="list-inline-item"><a class="text-secondary" href="#"><i class="fa fa-2x fa-circle"></i></a>
+    </li>
+    <li class="list-inline-item"><a class="text-secondary" href="#"><i class="fa fa-2x fa-circle"></i></a>
+    </li>
+    <li class="list-inline-item"><a class="text-secondary" href="#"><i class="fa fa-2x fa-circle"></i></a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="footer-copyright">
+    <div class="container">
+    <div class="d-flex flex-row">
+    <div>
+    <p>© Pick & Pay 2018. All Rights Reserved.</p>
+    </div>
+    <div class="ml-auto">
+    <ul class="list-inline">
+    <li class="list-inline-item"><a class="text-dark" href="#!">About Pick & Pay</a></li>
+    <li class="list-inline-item"><a class="text-dark" href="#!">Contact Us</a></li>
+    <li class="list-inline-item"><a class="text-dark" href="#!">FAQs</a></li>
+    <li class="list-inline-item"><a class="text-dark" href="#!">Terms & Conditions</a></li>
+    <li class="list-inline-item"><a class="text-dark" href="#!">Privacy Policy</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+        
+
+                
+<br><br><br>
+             
+<!-- jQuery Tabs -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+              
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/nav-tabs.js"></script>
+
+<!-- Bootstrap Core JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+             
+</body>
+</html>

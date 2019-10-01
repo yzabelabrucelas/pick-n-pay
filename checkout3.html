@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tabs.css">
+
+    <!-- Custom fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+
+
+    <title>Checkout</title>
+</head>
+<body>
+  <!-- main nav opening-->
+  <nav class="fixed-top navbar-expand-md">
+
+        <!-- first nav -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" width="auto" height="75" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="form-group">
+                        <label for="search">Search</label>
+                        <select class="form-control category-select" style="margin-left: 20px;">
+                          <option>All</option>
+                          <option>By Name</option>
+                          <option>By Price</option>
+                          <option>By Categories</option>
+                        </select>
+                      </div>
+                </form>
+                <div class="input-group col-md-4">
+                    <input class="form-control w-50" type="search" placeholder="Enter any keyword" id="example-search-input">
+                    <span class="input-group-append" >
+                    <button class="btn btn-outline-secondary border-right-0"  type="button">
+                    <i class="fa fa-search"></i>
+                    </button>
+                    </span>
+                </div>
+        
+                <div class="dropdown" style="margin-left: 180px"> 
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="badge badge-pill badge-primary">2</span> <b>My Cart</b>
+                            </a>
+                            <div class="dropdown-menu">
+                               <!-- items -->
+                                    <div class="card-body">
+                                        <div class="row"><!-- row opening -->
+                                            <div class="col-md-4">
+                                                <img class="card-img-top img-thumbnail" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:85px; height:95px">                                 
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p class="text-heading">Huawei Y9 Prime 2019</p>
+                                                <h6 class="text-dark font-weight-bold">P 12,990.00</h6> 
+                                            </div>
+                                        </div> <!-- row closing -->
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="card-body">
+                                        <div class="row"><!-- row opening -->
+                                            <div class="col-md-4">
+                                                <img class="card-img-top img-thumbnail" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:85px; height:95px">                                 
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p class="text-heading">Huawei Y9 Prime 2019</p>
+                                                <h6 class="text-dark font-weight-bold">P 12,990.00</h6> 
+                                            </div>
+                                        </div> <!-- row closing -->
+                                    </div>
+                                    
+                                    <!-- buttons -->
+                                    <div class="dropdown-divider"></div>
+                                    <div class="row ml-2 mr-2 pb-2 pt-2">
+                                      <div class="col-md-6">
+                                          <a class="btn w-100 p-1 text-uppercase font-weight-bold btn-outline-main text-heading" id="viewCart" href="shoppingCart.html">view cart</a>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <a class="btn w-100 main-color p-1 text-white text-uppercase font-weight-bold text-heading" id="checkout" href="checkout1.html">checkout</a>
+                                      </div>
+                                    </div>
+        
+                              </div>
+                        </li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </nav><!-- first nav -->
+        
+        
+        <!-- second nav -->
+              <nav class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom">
+                  <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+            
+                    <li class="nav-item dropdown" style="margin-left:-20px">
+                    <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Shop by what you need
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+            
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+            
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Today's Deals
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+            
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark mr-5" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    My Shopping List
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                    </li>
+                    </ul>
+        
+                      <div class="ml-auto">
+                        <a class="text-dark mr-2" href="login.html"><i class="far fa-user mr-2"></i>Login</a> |
+                        <a class="text-dark ml-2" href="signup.html"><i class="fa fa-cart"></i>Sign up</a>
+                      </div>
+                    </div>
+        
+                  </div>
+                </nav>   <!-- second nav closing -->
+                 
+            </nav> <!-- main nav closing-->
+<br>
+<div class="container" style="margin-top: 10rem">
+        <div class="row">
+    
+          <!-- divider -->
+            <div class="col-md-8 divider" >
+                    <h1 class="text-heading">Checkout</h1>
+                    <p class="text-secondary mt-0">Fill out all the information below to proceed to checkout.</p>
+                    
+                    <br>
+    
+                      <!-- DETAILS TAB 1 -->
+                        
+                          <div>
+
+                            <h5 class="mb-0 text-heading">
+                                <a class="mr-4 p-1" style="border-radius: 100% !important;  color: #1e7e34 !important;
+                                background-color: transparent;
+                                border: 1px solid #1e7e34;"><i class="fa fa-xs fa-check"></i></a><b>Your details</b>
+                            </h5>
+
+                            <!-- details forms -->
+                            <br>
+                            <p class="text-secondary ml-5">Email address</p>
+                            <h6 class="ml-5" style="margin-top:-5px" id="email">email address</h6>
+
+                            <br>
+                            <div class="row"><!-- div row opening -->
+                                <div class="col-md-6">
+                                        <p class="text-secondary ml-5">Delivery address</p>
+                                        <label class="ml-5 font-weight-bold" style="margin-top:-5px" id="fname">fname</label><label class="ml-1 font-weight-bold" style="margin-top:-5px" id="lname">lname</lname>
+                                        
+                                            <label class="ml-5" style="margin-top:-5px" id="contact">contact number</label>
+                                        
+                                        <label class="ml-5" style="margin-top:-5px" id="d_address">address</label>
+                                        <label class="ml-5" style="margin-top:-5px" id="d_city">city </label> <label id="d_province"></label>
+                                        <h6 class="ml-5" style="margin-top:-5px" id="d_country">city <h6 style="margin-top:-27px;margin-left: 87px" id="d_postal"></h6></h6>
+                                       
+
+                                </div>
+                                <div class="col-md-6">
+                                        <p class="text-secondary ml-5">Billing address</p>
+                                        <h6 class="ml-5" style="margin-top:-5px" id="fullname">fullname</h6>
+                                        <h6 class="ml-5" style="margin-top:-5px" id="b_address">address</h6>
+                                        <h6 class="ml-5" style="margin-top:-5px" id="b_address2">city province, PH postal</h6>
+                                        <h6 class="ml-5" style="margin-top:-5px" id="contact">contact number</h6>
+                                </div>
+
+                            </div><!-- div row closing -->
+
+                            
+                          </div>
+ 
+<br>
+<br>
+<hr class="mt-0 mb-0">
+<br>                     
+                          <div>
+
+                                <h5 class="mb-0 text-heading">
+                                    <a class="mr-4 p-1" style="border-radius: 100% !important;  color: #1e7e34 !important;
+                                    background-color: transparent;
+                                    border: 1px solid #1e7e34;"><i class="fa fa-xs fa-check"></i></a><b>Payment</b>
+                                </h5>
+    
+                                <!-- details forms -->
+                                <br>
+                                <p class="text-secondary ml-5">Card Number</p>
+                                <h6 class="ml-5" style="margin-top:-5px" id="cardno">email address</h6>
+    
+                                <br>
+                                <div class="row"><!-- div row opening -->
+                                    <div class="col-md-6">
+                                            <p class="text-secondary ml-5">Delivery address</p>
+                                            <label class="ml-5 font-weight-bold" style="margin-top:-5px" id="fname">fname</label><label class="ml-1 font-weight-bold" style="margin-top:-5px" id="lname">lname</lname>
+                                            
+                                                <label class="ml-5" style="margin-top:-5px" id="contact">contact number</label>
+                                            
+                                            <label class="ml-5" style="margin-top:-5px" id="d_address">address</label>
+                                            <label class="ml-5" style="margin-top:-5px" id="d_city">city </label> <label id="d_province"></label>
+                                            <h6 class="ml-5" style="margin-top:-5px" id="d_country">city <h6 style="margin-top:-27px;margin-left: 87px" id="d_postal"></h6></h6>
+                                           
+    
+                                    </div>
+                                    <div class="col-md-6">
+                                            <p class="text-secondary ml-5">Billing address</p>
+                                            <h6 class="ml-5" style="margin-top:-5px" id="fullname">fullname</h6>
+                                            <h6 class="ml-5" style="margin-top:-5px" id="b_address">address</h6>
+                                            <h6 class="ml-5" style="margin-top:-5px" id="b_address2">city province, PH postal</h6>
+                                            <h6 class="ml-5" style="margin-top:-5px" id="contact">contact number</h6>
+                                    </div>
+    
+                                </div><!-- div row closing -->
+    
+                                
+                              </div>
+                              <br>
+                              <hr class="mt-0 mb-0">
+                            <br>
+                              <div>
+
+                                    <h5 class="mb-0 text-heading">
+                                            <span class="badge badge-pill badge-black mr-4">3</span><b>Confirmation</b>
+                                    </h5>
+        
+                                    <!-- details forms -->
+                                    <br>
+                                    
+                                    <div class="row"><!-- div row opening -->
+                                        <div class="col-md-6">
+                                                <br>
+                                                        <p class="text-secondary">Order confirmation number:</p>
+                                                        
+                                                        <h1 class="font-weight-boldest">3049-3092</h1>
+                                                        <p class="pt-2">An email acknowledgement with your order<br>
+                                                        details will be sent shortly to: <u><label id="email"></label></u></p>
+                                                        <button class="w-60 p-1 mt-2 text-uppercase font-weight-bold btn-outline-main">continue shopping</button>
+                                        </div>
+                                    </div><!-- div row closing -->
+                                  </div>
+                                  <br>
+                                  <hr class="mt-0 mb-0">
+                                <br>
+         <!-- images card -->
+         <h6 class="text-secondary pb-2" style="font-size: 12px">Supported payment types:</h6>
+         <img src="img/payments.png" alt="" style="width:60%;">
+         <br>
+         <h6 class="text-secondary pt-3" style="font-size: 12px">Any questions, call 1300 362 603 
+           <a href="#" class="text-secondary" style="text-decoration: underline;">What is your return policy?</a> 
+           <a href="#" class="text-secondary" style="text-decoration: underline;">When can I expect my order?</a>
+           <br>
+           Copyright © 1995-2017 Samsung all rights reserved.
+         
+         </h6>
+
+                     
+</div> <!-- divider ending -->
+
+
+<div class="col-md-4"><!-- second divider opening -->
+    
+        <div class="">
+                <h4 class="text-heading font-weight-bold">Summary<a class="text-secondary font-weight-normal" style="margin-left:120px;font-size: 15px">Edit</a></h4>
+                <!-- items -->
+                     <div class="card-body">
+                         <div class="row"><!-- row opening -->
+                             <div class="col-md-4">
+                                 <img class="card-img-top img-thumbnail" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:85px; height:95px">                                 
+                             </div>
+                             <div class="col-md-8">
+                                 <p class="text-heading">Huawei Y9 Prime 2019</p>
+                                 <h6 class="text-dark font-weight-bold">P 12,990.00</h6> 
+                             </div>
+                         </div> <!-- row closing -->
+                     </div>
+                    
+                     <div class="card-body">
+                         <div class="row"><!-- row opening -->
+                             <div class="col-md-4">
+                                 <img class="card-img-top img-thumbnail" src="img/products/huawei-y9-prime-2019.png"  alt="Card image cap" style="width:85px; height:95px">                                 
+                             </div>
+                             <div class="col-md-8">
+                                 <p class="text-heading">Huawei Y9 Prime 2019</p>
+                                 <h6 class="text-dark font-weight-bold">P 12,990.00</h6> 
+                             </div>
+                         </div> <!-- row closing -->
+                     </div>
+                     <hr class="mt-0 mb-4">
+        </div>
+
+      <p class="text-secondary">20% off all products when you order during November</p>
+      <br>
+      <h6 class="text-heading font-weight-bold">Subtotal
+        <span class="ml-5" id="subtotal"> 35, 745.00</span></h6>
+
+      <h6 class="text-heading font-weight-bold">Shipping
+      <span class="ml-5" id="shipping"> 2,500.00</span></h6>
+      
+      <br>
+      <h5 class="text-heading font-weight-bold">Total <span class="ml-5" id="total">38, 259.00</span></h5>
+
+</div><!-- second divider closing -->
+
+</div>
+</div>
+<script>
+
+        window.onload = function () 
+        {
+        
+          document.getElementById('email').innerHTML = localStorage.getItem('email');
+          document.getElementById('contact').innerHTML = localStorage.getItem('contact');
+          document.getElementById('fname').innerHTML = localStorage.getItem('fname');
+          document.getElementById('lname').innerHTML = localStorage.getItem('lname');
+        
+          document.getElementById('d_address').innerHTML = localStorage.getItem('d_address');
+          document.getElementById('d_city').innerHTML = localStorage.getItem('d_city');
+          document.getElementById('d_province').innerHTML = localStorage.getItem('d_province');
+          document.getElementById('d_country').innerHTML = localStorage.getItem('d_country');
+          document.getElementById('d_postal').innerHTML = localStorage.getItem('d_postal');
+          document.getElementById('b_address').innerHTML = localStorage.getItem('b_address');
+          document.getElementById('b_city').innerHTML = localStorage.getItem('b_city');
+          document.getElementById('b_province').innerHTML = localStorage.getItem('b_province');
+          document.getElementById('b_country').innerHTML = localStorage.getItem('b_country');
+          document.getElementById('b_postal').innerHTML = localStorage.getItem('b_postal');
+
+          document.getElementById('cardno').innerHTML = localStorage.getItem('cardno');
+          document.getElementById('expiry').innerHTML = localStorage.getItem('expiry');
+          document.getElementById('cvc').innerHTML = localStorage.getItem('cvc');
+        
+         }; 
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap Core JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+
+</html>
