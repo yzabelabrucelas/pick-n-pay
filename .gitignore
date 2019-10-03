@@ -1,4 +1,9 @@
-.png
-.jpg
-lib
+# Pictures
+
+*.png
+*.jpg
+
+# Libraries
+.lib
+
 .gitignore
