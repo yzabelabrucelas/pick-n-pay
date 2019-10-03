@@ -64,6 +64,11 @@
   border-color: #8828C0;
 }
 
+.btn-outline-main:hover{
+  background-color: #8828C0;
+}
+
+
 .font-weight-bold {
   font-weight: 600 !important;
 }

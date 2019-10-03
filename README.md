@@ -9,8 +9,7 @@ A prototype E-commerce website developed using Bootstrap CSS Framework and Vanil
 ###### Website Template
 - [https://getbootstrap.com](https://getbootstrap.com)
 
-###### Plugins
+###### Plugins  
 - [http://daneden.me/animate](http://daneden.me/animate)
 - [http://gsgd.co.uk/sandbox/jquery/easing/](http://gsgd.co.uk/sandbox/jquery/easing/)
 - [http://ianlunn.github.io/Hover/](http://ianlunn.github.io/Hover/)
-
